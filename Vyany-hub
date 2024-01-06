@@ -5,8 +5,7 @@ local Positions = UDim2.new(0.822025776, 0, 0.0401606411, 0)
 local Sizes = UDim2.new(0, 76, 0, 70)
 
 local KINGHUBMOBILE = Instance.new("ScreenGui")
-
-local _100x100 = Instance.new("Frame")
+local _150x150 = Instance.new("Frame")
 
 local ImageButton = Instance.new("ImageButton")
 
