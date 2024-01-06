@@ -1,0 +1,45 @@
+local IMAGE = "rbxassetid://11400868582"
+
+local Positions = UDim2.new(0.822025776, 0, 0.0401606411, 0)
+
+local Sizes = UDim2.new(0, 76, 0, 70)
+
+local KINGHUBMOBILE = Instance.new("ScreenGui")
+
+local _100x100 = Instance.new("Frame")
+
+local ImageButton = Instance.new("ImageButton")
+
+KINGHUBMOBILE.Name = "REBOUND MOBILE"
+
+KINGHUBMOBILE.Parent = game:WaitForChild("CoreGui")
+
+KINGHUBMOBILE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+_150x150.Name = "150x150"
+
+_150x150.Parent = KINGHUBMOBILE
+
+_150x150.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+_150x150.Position = Positions
+
+_150x150.Size = UDim2.new(0, 76, 0, 70)
+
+ImageButton.Parent = _150x150
+
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+ImageButton.Size = Sizes
+
+ImageButton.Image = IMAGE
+
+ImageButton.MouseButton1Down:connect(function()
+
+	local vim = game:service("VirtualInputManager")	vim:SendKeyEvent(true, "RightControl", false, game)
+
+	local vim = game:service("VirtualInputManager")
+
+	vim:SendKeyEvent(fales, "RightControl", false, game)
+
+end)
